@@ -14,7 +14,7 @@ var OASWalkerConstants = {
         },
         {
             id: 'so-v2',
-            url: 'http://localhost:3004/so-v2-test.yaml'
+            url: 'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/so-v2.yaml'
         },
         {
             id: 'disputes-composite',
@@ -36,7 +36,6 @@ var OASWalkerConstants = {
     X_SCHEMA_WALKER: 'x-schema-walker',
     X_SCHEMA_WALKER_PATH_PREFIX: 'x-schema-walker-refed-'
 };
-//# sourceMappingURL=constants.js.map
 
 /**
  * Checks if `value` is classified as an `Array` object.
