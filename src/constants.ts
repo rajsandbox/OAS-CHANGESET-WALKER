@@ -1,0 +1,40 @@
+import { IConstants } from './interfaces'
+
+export const OASWalkerConstants = {
+  API_SPECS: [
+    {
+      id: 'payments-orchestrator',
+      url: 'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/orchestrator-api.yaml'
+    },
+    {
+      id: 'payouts-orchestrator',
+      url: 'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/payouts-orchestrator.yaml'
+    },
+    {
+      id: 'payouts-composite',
+      url: 'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/payouts-composite.yaml'
+    },
+    {
+      id: 'so-v2',
+      url: 'http://localhost:3003/so-v2-test.yaml'
+    },
+    {
+      id: 'disputes-composite',
+      url: 'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/disputes-composite.yaml'
+    },
+    {
+      id: 'offerings-composite',
+      url: 'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/offering-composite.yaml'
+    },
+    {
+      id: 'token-orchestrator',
+      url: 'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/token-orchestrator.yaml'
+    }
+  ],
+  EXAMPLE: 'example',
+  PARAMETER: 'param',
+  REQUEST_BODY_PARAM: 'requestBodyParam',
+  RESPONSE: 'response',
+  X_SCHEMA_WALKER: 'x-schema-walker',
+  X_SCHEMA_WALKER_PATH_PREFIX: 'x-schema-walker-refed-'
+} as IConstants
