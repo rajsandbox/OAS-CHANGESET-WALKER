@@ -4,31 +4,37 @@ export const OASWalkerConstants = {
   API_SPECS: [
     {
       id: 'payments-orchestrator',
-      url: 'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/orchestrator-api.yaml'
+      url:
+        'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/orchestrator-api.yaml'
     },
     {
       id: 'payouts-orchestrator',
-      url: 'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/payouts-orchestrator.yaml'
+      url:
+        'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/payouts-orchestrator.yaml'
     },
     {
       id: 'payouts-composite',
-      url: 'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/payouts-composite.yaml'
+      url:
+        'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/payouts-composite.yaml'
     },
     {
       id: 'so-v2',
-      url: 'http://localhost:3003/so-v2-test.yaml'
+      url: 'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/so-v2.yaml'
     },
     {
       id: 'disputes-composite',
-      url: 'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/disputes-composite.yaml'
+      url:
+        'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/disputes-composite.yaml'
     },
     {
       id: 'offerings-composite',
-      url: 'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/offering-composite.yaml'
+      url:
+        'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/offering-composite.yaml'
     },
     {
       id: 'token-orchestrator',
-      url: 'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/token-orchestrator.yaml'
+      url:
+        'https://ys-devportal-specs.s3-us-west-2.amazonaws.com/token-orchestrator.yaml'
     }
   ],
   EXAMPLE: 'example',
